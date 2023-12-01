@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ff43f01.css",
+    "main.js": "/static/js/main.f604d539.js",
+    "static/media/dISCORDNOUTBOOK.png": "/static/media/dISCORDNOUTBOOK.fa86ef6d96935cf97371.png",
+    "static/media/mobile-app-video-new.webm": "/static/media/mobile-app-video-new.718f1fd81ab3d64fa382.webm",
+    "static/media/Noutbuk.png": "/static/media/Noutbuk.bf43d383d61e8feb2973.png",
+    "static/media/disk-toplamOnlaniDars.png": "/static/media/disk-toplamOnlaniDars.33b89626d616c843be10.png",
+    "static/media/Noutbuk-midDiscord.png": "/static/media/Noutbuk-midDiscord.6e937007adb539003c62.png",
+    "static/media/robot-bosh-removebg-previewHeADRo.png": "/static/media/robot-bosh-removebg-previewHeADRo.8824753d3977551d496b.png",
+    "static/media/polni-logosi-yoqDiscord.png": "/static/media/polni-logosi-yoqDiscord.bd4a3ba106c73dd5cefa.png",
+    "static/media/5773ddec-frame-37_10gy0j70gr0h0000027000.jpg": "/static/media/5773ddec-frame-37_10gy0j70gr0h0000027000.6be9cf4855fc76189d79.jpg",
+    "static/media/robot-removebg-previewRobot.png": "/static/media/robot-removebg-previewRobot.45f5250251ffe1bd09bb.png",
+    "static/media/mym.png": "/static/media/mym.97b0fa8ccccac0089409.png",
+    "static/media/robo.png": "/static/media/robo.f58fbe9252678fba5ce1.png",
+    "static/media/XM-BROKER copy.png": "/static/media/XM-BROKER copy.636ac0a610b9bf710be2.png",
+    "static/media/sdsd.png": "/static/media/sdsd.4a3e933759aa8234dd7f.png",
+    "static/media/discord.png": "/static/media/discord.b49caba02d8eeeca46b1.png",
+    "static/media/shlyapa.png": "/static/media/shlyapa.1b8309a4f87f966c7474.png",
+    "static/media/youtube-svgrepo-com.svg": "/static/media/youtube-svgrepo-com.a02ffc90e72df35b78cf8039c964bee0.svg",
+    "static/media/discord-svgrepo-com.svg": "/static/media/discord-svgrepo-com.8cc13f9885e6f763d705b4b06e28e3a5.svg",
+    "static/media/telegram-svgrepo-com.svg": "/static/media/telegram-svgrepo-com.5e2b217e7736af229c9d5680790bedde.svg",
+    "static/media/instagram-svgrepo-com (3).svg": "/static/media/instagram-svgrepo-com (3).710c45803ee028cfe591ef127a99987b.svg",
+    "index.html": "/index.html",
+    "main.0ff43f01.css.map": "/static/css/main.0ff43f01.css.map",
+    "main.f604d539.js.map": "/static/js/main.f604d539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff43f01.css",
+    "static/js/main.f604d539.js"
+  ]
+}
