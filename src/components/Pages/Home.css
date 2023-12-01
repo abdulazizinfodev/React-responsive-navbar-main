@@ -1,0 +1,642 @@
+.home{
+    overflow: hidden;
+    background-color: #000;
+}
+.wrapper h1{
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    padding: 20px 15%;
+    
+}
+.wrapper .first-text {
+    font-size: 20px;
+    padding-top: 5px ;
+    color: #fff;
+}
+.wrapper .sec-texts {
+    height: 50px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.sec-texts li {
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    color: #0ef;
+    list-style: none;
+    padding: 0 20px;
+    text-shadow: 0 0 10px #0ef;
+    animation: slide 12s steps(4) infinite, colorful 6s infinite;
+}
+@keyframes slide {
+    100% {
+        top: -380px;
+    }
+}
+@keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.sec-texts li span {
+    position: relative;
+    padding: 0;
+}
+
+.sec-texts li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 30px;
+    top: 1px;
+    background: #000;
+    border-left: 2px solid #0ef;
+    animation: typ 1.5s steps(12) infinite alternate;
+}
+@keyframes typ {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.first-text{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.mysection{
+    width: 80%;
+    margin:0 auto;
+    color: white;
+    padding: 30px 0;
+}
+.videoMain{
+    width: 100%;
+}
+.videoMain video{
+    width: 80%;
+    margin-top: -40px;
+}
+.mysection h1{
+    padding-top: 0;
+}
+
+@media (max-width:700px) {
+    .wrapper{
+        display: none;
+    }
+}
+
+.flax{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.clone{
+    display: flex;
+    width: 50%;
+}
+
+.high{
+    width: 5px;
+    height: 350px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.flax .flexImg{
+    width: 35%;
+    height: 400px;
+}
+
+.text{
+    width: 80%;
+}
+
+.text h1{
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.text h2{
+    font-size: 25px;
+    width: 600px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text button{
+    width: 50%;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 18px;
+    transition: .2s linear;
+    border-radius: 10px;
+    border: #fff;
+}
+
+
+
+.text button:hover {
+    background-color: #3c1c9e;
+    box-shadow: 0px 15px 20px rgba(62, 137, 223, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+@media (max-width:700px) {
+    .flax{
+        display: block;
+        flex-direction: column;
+    }
+    .high{
+        display: none;
+    }
+    .flax .flexImg{
+        width: 100%;
+        /* margin-left: 20px; */
+        display: block;
+        height: 31vh;
+        margin-top: 10px;
+    }
+
+    .text h1{
+        font-size: 28px;
+        width: 75vw;
+        text-align: center;
+        /* margin-left: -10px; */
+        margin-top: 10px;
+    }
+
+    .text h2{
+        font-size: 20px;
+        width: 75vw;
+        text-align: center;
+    }
+
+    .text button{
+        width: 50vw;
+        margin: auto;
+        display: block;
+        margin-left: 12vw;
+    }
+}
+
+.products{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15vh 0;
+}
+
+.box{
+    display: grid;  
+    flex-direction: column;
+    width: 13%;
+    height: auto;
+    padding: 20px 5%;
+    border: 3px solid white;
+    border-radius: 12px;
+    color: white;
+}
+
+.box img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: -75px;
+    animation: linear infinite 5s anime;
+}
+
+@keyframes anime{
+    0%{
+            transform: rotateY(0deg);
+        
+    }
+    100%{
+            transform: rotateY(360deg);
+        
+    }
+}
+
+.box h3{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box p{
+    text-align:start;
+    /* font-size: 18px; */
+    /* margin-left: -10px; */
+    /* width: 100%; */
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.box p span{
+    padding-right: 10px;
+    margin-left: -20px;
+    color: rgb(253, 188, 46);
+}
+
+.box button{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    transition: .2s linear;
+    border-radius: 8px;
+    border: none;
+}
+
+.box button a{
+    text-decoration: none;
+    color: black;
+}
+
+.box button:hover {
+    background-color: #3c1c9e;
+    box-shadow: 0px 15px 20px rgba(62, 137, 223, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+@media (max-width:700px) {
+    .products{
+        display: block;
+    }
+    .box{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .box p{
+        margin-left: 0;
+        width: 100%;
+    }
+    .box img{
+        margin-top: -120px;
+    }
+    .box p span{
+        margin-left: 0;
+    }
+}
+
+.mycontent{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.video {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.flex-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1{
+    width: 40%;
+    height: auto;
+    background-color: #3f3e3e;
+    border-radius: 18px;
+    color: white;
+    padding: 20px 50px;
+    box-sizing: border-box;
+
+}
+
+.text1 h2{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.text1 h4{
+    font-size: 18px;
+    padding-bottom: 8px;
+    font-weight: 100;
+}
+
+.text1 h4 span{
+    margin-right: 10px;
+    color: rgb(253, 188, 46);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.text1 button{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 18px;
+    transition: .2s linear;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+
+.text1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.text1 button:hover{
+    background-color: #3c1c9e;
+    box-shadow: 0px 15px 20px rgba(62, 137, 223, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+@media (max-width:700px) {
+    .flex-side{
+        display: block;
+    }
+
+    .video *{
+        width: 80vw;
+        height: 250px;
+        margin-left: 2vw;
+        margin-top: -20px;
+    }
+
+    .text1{
+        width: 80vw;
+        margin: auto;
+        padding: 40px 25px;
+
+    }
+}
+
+.natija{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.results{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.boxs{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    background-color: #3f3e3e;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#value{
+    font-size: 36px;
+}
+
+.myh1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+
+.biznigh1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 48px;
+}
+.bizningXomkorlarBoxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.bizningXomkorlarBoxs img{
+    padding: 20px;
+    width: 30%;
+}
+@media (max-width:700px) {
+    .results{
+        display: block;
+    }
+    .boxs{
+        margin-bottom: 20px;
+        padding: 1px 0;
+    }
+
+    #value{
+        padding-top: 5px;
+        padding-bottom: 0 !important;
+    }
+    .boxs p{
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+  @keyframes ticker {
+      0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+  .ticker-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 100%;
+    box-sizing: content-box;
+}
+.ticker-wrap .ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+}
+.ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.connect{
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.fex, .frx{
+    display: flex;
+}
+
+.frst{
+    width: 40%;
+}
+
+.frx img{
+    margin-right: 15px;
+}
+
+.frx{
+    margin-top: 20px;
+}
+
+.scnd input, textarea{
+    color: white;
+    background-color: #302f2f;
+    padding: 15px 15px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.scnd{
+    width: 55%;
+}
+.mavzu{
+    width: 88%;
+    margin-bottom: 30px;
+}
+
+.fex{
+    justify-content: space-between;
+}
+
+.myinp{
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.send{
+    width: 50%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.send:hover {
+    background-color: #3c1c9e;
+    box-shadow: 0px 15px 20px rgba(62, 137, 223, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.icons{
+    margin-top: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.icons .instagarm{
+    width: 20%;
+}
+.icons .discord{
+    width: 30%;
+}
+.icons .telegram{
+    width: 30%;
+}
+.icons .youtube{
+    width: 30%;
+}
+
+.icons .icnsImg{
+    transition: margin-top .2s;
+    /* background-color: transparent; */
+}
+.icons .icnsImg:hover {
+    margin-top: -10px;
+  }
+
+
+
+@media (max-width:700px) {
+    .fex{
+        display: block;
+    }
+    .frst{
+        width: 90%;
+        margin-top: -20px;
+    }.connect{
+        margin-top: 20px;
+    }
+    .scnd{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .myinp, .mavzu{
+        width: 80vw;
+    }
+    textarea{
+        width: 80vw;
+    }
+    .icons .icnsImg{
+        padding: 10px 10px 0;
+    }
+    .icons .instagarm{
+        width: 70%;
+    }
+    .icons .discord{
+        width: 100%;
+    }
+    .icons .telegram{
+        width: 100%;
+    }
+    .icons .youtube{
+        width: 100%;
+    }
+    
+}

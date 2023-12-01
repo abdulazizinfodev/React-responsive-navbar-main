@@ -1,0 +1,49 @@
+
+/*   
+.typewriter h1 {
+    color: #fff;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 3s steps(30, end),
+        blink-caret .5s step-end infinite;
+} */
+.typewriter h1 {
+    color: #fff;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
+}
+.typewriter.active h1 {
+    animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
+  }
+/*   
+.typewriter.active {
+    opacity: 1;
+  } */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+}
+
+
+
+
+
+

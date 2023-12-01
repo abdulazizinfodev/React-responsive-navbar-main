@@ -1,0 +1,421 @@
+  
+
+body{
+    background-color: #000;
+
+}  
+a{
+    text-decoration: none;
+}
+.mybtn{
+        width: 80%;
+        margin-top: 30px;
+        height: 40px;
+        font-size: 18px;
+        transition: .2s linear;
+        border-radius: 10px;
+        border: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+}
+.mybtn:hover{
+  background-color: #3c1c9e;
+    box-shadow: 0px 15px 20px rgba(62, 137, 223, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.counterBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-size: xxx-large;
+}
+
+.counterBox p {
+    font-size: 24px;
+}
+
+.contain {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colum3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.discordServer {
+    color: #fff;
+    /* padding-top: 35px; */
+}
+
+.discordSto {
+    margin-left: 10px;
+    content: "";
+    position: absolute;
+    height: 30%;
+    width: 5px;
+    background: #fff;
+}
+
+
+.discordText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.discordTxt {
+    padding-left: 10px;
+}
+
+.discordTxt h1 {
+    font-size: 40px;
+}
+
+.discordTxt p {
+    font-size: 20px;
+}
+
+.discordServerBoxs {
+    margin-top: 100px;
+}
+.discordServer .OnlineImg{
+    width: 45%;
+}
+
+
+.video2{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.discoedImg {
+    width: 50% ;
+}
+
+.video2 *{
+    width: 80%;
+    margin-top: 30px;
+}
+.imgRobot {
+    margin-left: -20px;
+}
+
+.disCotrdBOX {
+    padding: 10px;
+    margin: 20px 50px 10px;
+}
+
+
+.onlineDarspage2 {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.page2Book {
+    padding: 25px;
+}
+
+.page2Book img {
+    width: 550px;
+    height: 650px;
+}
+
+.page2Box {
+    padding: 10px;
+    width: 650px;
+    height: 650px;
+    /* border: 2px solid #134672 ; */
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page2Box h1 {
+    font-size: 46px;
+}
+
+.page2Box h1 span {
+    color: #361db5;
+}
+
+.page2Box h2 {
+    padding: 30px 0;
+    font-size: 26px;
+}
+
+.page2Box p {
+    font-size: 22px;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.onlinePrice {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.onlinePriceBoxs {
+    margin-top: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.onLPriceH1 h3 {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.onLPriceH1 h1 {
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: 600;
+}
+
+.onLPriceH1 span {
+    margin: 20px 0 0;
+    content: "";
+    position: absolute;
+    left: 46%;
+    height: 3px;
+    width: 8% ;
+    background: #4525a1;
+    border-radius: 10px;
+}
+
+
+
+
+.onlinePriceBox {
+    margin: 10px;
+    border: 2px solid #4525a1;;
+    height: -webkit-fill-available;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    transition: .2s linear;
+}
+
+.onlinePriceBox h2 {
+    color: #ebeb10;
+    padding: 10px 0 ;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.onlinePriceBox h1 {
+    color: #ebeb10;
+    font-size: 60px;
+    margin: 18px 0;
+    font-weight: 600;
+    text-align: center;
+}
+.tarif{
+    padding: 5px 0 20px;
+    text-align: center;
+}
+.onlinePriceBox h4 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.onlinePriceBox h3 span{
+    text-decoration-line: line-through;
+    text-decoration-color: #fff;
+    color: red;
+}
+.onlinePriceBox{
+    transition: .5 linear !important;
+}
+.onlinePriceBox:hover{
+    margin-top: -30px;
+    box-shadow: 7px 10px  1px rgba(0, 0, 255, .2);
+    background-color: #4525a1;
+    border: 2px solid #fff ;
+}
+.onlinePriceBox p{
+    padding-bottom: 8px;
+    text-align: start;  
+} 
+.onlinePriceBox p span{
+    color: rgb(253, 188, 46);
+    /* margin-left: -20px; */
+}
+.onlinePriceBox .middle{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.ommabopBox{
+    margin-top: -10px;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .discordServer {
+        padding-top: 80px;
+    }
+
+    .discordServerBoxs {
+        margin-top: 50px;
+    }
+
+    .discoedImg img {
+        margin-right: 0;
+    }
+
+    .flex,
+    .flex2,
+    .colum {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .discordText {
+        margin-left: 0;
+        /* Adjust as needed */
+        text-align: center;
+        /* Align text to the center */
+    }
+    .discordText p{
+        font-size: 12px;
+    }
+    .discordTxt h1{
+        font-size: 24px;
+    }
+    .page2Box h2{
+        font-size: 20px;
+    }
+    .onlineDars .imgComp img {
+        margin-left: 0;
+    }
+
+    .page2Box,
+    .page2Book img {
+        width: 100%;
+        height: auto;
+    }
+    .page2Box p{
+        font-size: 12px;
+    }
+    .onlinePriceBoxs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .onlinePriceBox p{
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .onlinePriceBox {
+        width: 70%;
+    }
+
+    .onLPriceH1 span {
+        left: 50%;
+        /* Center the span */
+        transform: translateX(-50%);
+        width: 35%;
+    }
+    .onlinePriceBox h1 {
+        font-size: 40px;
+        margin:10px 0 10px;
+       font-weight: 600;
+    }
+
+    .onlineDars {
+        padding-top: 40px;
+    }
+
+    .onlineDarsMalumot {
+        flex-direction: column-reverse;
+    }
+
+    .onlineDars .imgComp img {
+        margin: 20px;
+    }
+
+    .tarif{
+        padding: 0;
+    }
+    .counterBox {
+        width: 100%;
+        text-align: center;
+        font-size: 18px
+    }
+    .counterBox p{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .onlineDarspage2 {
+        flex-direction: column;
+    }
+    .typewriter h1 {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+    .ommabopBox{
+        margin-top: 0;
+    }
+    .video2 *{
+        width: 50%;
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+
+.pro990{
+    margin-top: 275px !important;
+}
