@@ -158,7 +158,7 @@ const DiscardServer = () => {
             </div>
             <h1>$150</h1>
             <h3>BIR OYLIK TO'LOV</h3>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
             
           </div>
           <div className="onlinePriceBox ommabopBox">
@@ -204,7 +204,7 @@ const DiscardServer = () => {
             </div>
             <h1>$300</h1>
             <h3> <span>$150</span> Saqlab Qolasiz</h3>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
           <div className="onlinePriceBox ">
             <h2>6 Oylik</h2>
@@ -249,7 +249,7 @@ const DiscardServer = () => {
             </div>
             <h1>$500</h1>
             <h3> <span>$400</span> Saqlab Qolasiz</h3>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
           <div className="onlinePriceBox">
             <h2>12 Oylik</h2>
@@ -294,7 +294,7 @@ const DiscardServer = () => {
             </div>
             <h1>$900</h1>
             <h3> <span>$900</span> Saqlab Qolasiz</h3>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
         </div>
       </div>

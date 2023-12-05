@@ -111,15 +111,15 @@ const OnlineDarslar = () => {
               <p>10. Fake-Choch oldini olish (2024)</p>
             </div>
             <h1>$299</h1>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
             
           </div>
           <div className="onlinePriceBox ommabopBox">
             <h2>6 Oylik</h2>
             <h3 className='tarif'>TA'RIF</h3>
             <div className="colum3">
-              <p><span>√</span> 1 oylik discord server  (<span>-300$</span>)</p>
-              <p><span>√</span> 1 oylik mentor yordami</p>
+              <p><span>√</span> 3 oylik discord server  (<span>-300$</span>)</p>
+              <p><span>√</span> 3 oylik mentor yordami</p>
               <p><span>√</span> 10 ta bo'lim </p>
               <p><span>√</span> 50+ darslar</p>
               <p></p>
@@ -137,14 +137,14 @@ const OnlineDarslar = () => {
             </div>
             <h1>$399</h1>
             
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
           <div className="onlinePriceBox">
             <h2>12 Oylik</h2>
             <h3 className='tarif'>TA'RIF</h3>
             <div className="colum3">
-              <p><span>√</span> 1 oylik discord server  (<span>-500$</span>)</p>
-              <p><span>√</span> 1 oylik mentor yordami</p>
+              <p><span>√</span> 6 oylik discord server  (<span>-500$</span>)</p>
+              <p><span>√</span> 6 oylik mentor yordami</p>
               <p><span>√</span> 10 ta bo'lim </p>
               <p><span>√</span> 50+ darslar</p>
               <p></p>
@@ -162,7 +162,7 @@ const OnlineDarslar = () => {
             </div>
             <h1>$499</h1>
             
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
           <div className="onlinePriceBox">
             <h2>12 Oylik</h2>
@@ -175,7 +175,7 @@ const OnlineDarslar = () => {
             </div>
             <h1 className='pro990'>$990</h1>
             <h3></h3>
-            <Link to='https://t.me/noxonfx_uzbot'><button className="mybtn">Boshlash</button></Link>
+            <Link to='https://t.me/noxonfx_admin'><button className="mybtn">Boshlash</button></Link>
           </div>
         </div>
       </div>
